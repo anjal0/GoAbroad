@@ -1,0 +1,33 @@
+<app-nav></app-nav>
+<div class='card'>
+    <div class='card-header'>
+     
+    </div>
+    
+    <div class='card-body'>            
+      <div class='table-responsive'>
+        <table class='table bg-pic'>
+              <thead>
+                <h1>Top Universities in the World</h1>
+            
+              </thead>
+          <tbody>  
+            
+              <tr *ngFor='let university of universities'>
+                
+                  <td class="un">{{ university.name|uppercase }}</td>
+                  
+                 <td><a routerLink='/university/{{university._id}}'>  More  </a></td>
+                  
+                  <!-- <td>
+                    <button class="btn btn-warning" style="cursor:pointer" style="margin-left: 20px;"> Edit</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger" style="cursor:pointer" > Delete</button>
+                  </td> -->
+                </tr>              
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>

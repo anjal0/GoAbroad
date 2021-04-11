@@ -1,0 +1,10 @@
+thead h1{
+        color: rgb(233, 44, 10);
+        text-align: center;
+}
+.bg-pic{
+    background-image: url('/assets/images/sushinew.png');
+}
+.un{
+    color: rgb(184, 12, 184);
+}

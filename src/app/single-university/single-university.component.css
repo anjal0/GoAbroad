@@ -1,0 +1,15 @@
+.col-md-10 {
+    color: tomato;
+    font-weight: 800;
+    font-size: 100px;
+}
+.col-xs-9{
+    border: 1px solid black;
+    padding: 20px;
+    background-image: url('/assets/images/pp.jpg');
+   
+}
+.text-muted{
+    color: thistle;
+    font-weight: 800; 
+}

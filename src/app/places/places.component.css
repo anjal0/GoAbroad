@@ -1,0 +1,19 @@
+.pl{
+    color: rgb(82, 8, 8);
+    
+}
+.pl h1{
+    color: rgb(255, 0, 106);
+    font-size: 50px;
+    text-align: center;
+}
+.pl h2{
+    color: rgb(38, 41, 252);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col-md-8{
+    border: 3px dotted red;
+    background-image: url('/assets/images/pp.jpg');
+    color: wheat;
+}
